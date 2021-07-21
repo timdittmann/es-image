@@ -6,10 +6,9 @@ This repository specifies the user environment for the [COESSING hub](https://co
 ### Making a change
 
 1. Make a pull request to this repository with your environment changes (edits to
-   `environment.yml`, etc). A bot will post a link to `mybinder.org` that
+   `environment.yml`, etc). A bot will post a link to `binder.pangeo.io` that
    can be used to test your new changes! Use it, and make sure things work the way
    you would like. If not, amend the PR until it seems right.
-   **Note:** You won't be able to test complex Dask jobs on mybinder.org!
 
 2. Merge the PR. This will kick off a [GitHub Action](https://github.com/2i2c-org/coessing-image/actions)
    to build and push the container image. We use [quay.io](https://quay.io) instead of
