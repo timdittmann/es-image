@@ -10,3 +10,5 @@ dependencies:
 
   # Packages required by COESSING
   - ecco_v4_py
+  - mapclassify
+  - libpysal
