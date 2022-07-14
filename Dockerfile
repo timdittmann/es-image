@@ -1,4 +1,4 @@
-FROM pangeo/pangeo-notebook:6b2df38
+FROM pangeo/pangeo-notebook:2022.07.13
 
 USER root
 ENV DEBIAN_FRONTEND=noninteractive
@@ -12,10 +12,10 @@ USER ${NB_USER}
 
 COPY environment.yml /tmp/
 
-RUN conda env update --name ${CONDA_ENV} -f /tmp/environment.yml
+RUN mamba env update --name ${CONDA_ENV} -f /tmp/environment.yml
 
 # Remove nb_conda_kernels from the env for now
-RUN conda remove -n ${CONDA_ENV} nb_conda_kernels
+RUN mamba remove -n ${CONDA_ENV} nb_conda_kernels
 
 COPY install-jupyter-extensions.bash /tmp/install-jupyter-extensions.bash
 RUN /tmp/install-jupyter-extensions.bash
