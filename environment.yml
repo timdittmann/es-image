@@ -12,3 +12,4 @@ dependencies:
   - ecco_v4_py
   - mapclassify
   - libpysal
+  - flask
