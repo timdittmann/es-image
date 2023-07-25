@@ -10,6 +10,8 @@ dependencies:
 
   # Packages required by COESSING
   - ecco_v4_py
-  - mapclassify
-  - libpysal
-  - flask
+  - pyproj
+  - pythia-datasets
+  - ffmpeg
+  - sqlalchemy<1.4
+  - graphviz
