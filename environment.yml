@@ -16,3 +16,4 @@ dependencies:
   - sqlalchemy<1.4
   - graphviz
   - jupyterlab-language-pack-fr-FR
+  - pydub 0.25.1
