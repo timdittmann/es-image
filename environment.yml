@@ -17,3 +17,4 @@ dependencies:
   - graphviz
   - jupyterlab-language-pack-fr-FR
   - pydub 0.25.1
+  - xroms
