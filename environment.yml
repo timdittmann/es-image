@@ -8,13 +8,10 @@ dependencies:
   # Packages required for image
   - jupyter_contrib_nbextensions==0.5.1
 
-  # Packages required by COESSING
-  - ecco_v4_py
-  - pyproj
-  - pythia-datasets
-  - ffmpeg
-  - sqlalchemy<1.4
-  - graphviz
-  - jupyterlab-language-pack-fr-FR
-  - pydub 0.25.1
-  - xroms
+  # Packages required by ES
+  - pygmt
+  - obpsy
+  - tiledb
+  - pip
+  - pip:
+    - earthscope-sdk
