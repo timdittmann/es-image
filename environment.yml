@@ -10,7 +10,7 @@ dependencies:
 
   # Packages required by ES
   - pygmt
-  - obpsy
+  - obspy
   - tiledb
   - pip
   - pip:
