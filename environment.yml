@@ -15,3 +15,4 @@ dependencies:
   - pip
   - pip:
     - earthscope-sdk
+    - 'earthscopestraintools[mseed,tiledb,plotting]'
