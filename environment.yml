@@ -6,7 +6,7 @@ channels:
 
 dependencies:
   # Packages required for image
-  - jupyter_contrib_nbextensions
+  # - jupyter_contrib_nbextensions
 
   # Packages required by ES
   - pygmt
